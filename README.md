@@ -2,9 +2,8 @@
 ## Janji
 Saya Salma Ghaida dengan NIM 2207186 mengerjakan Tugas Praktikum 2 dalam mata kuliah Desain Pemrograman Berbasis Objek untuk keberkahanNya maka saya tidak melakukan kecurangan seperti yang telah dispesifikasikan. Aamiin...
 
-## Desain Program
-### Kelas
-#### Kelas Mahasiswa
+## Penjelasan Kelas
+### Kelas Mahasiswa
 **Atribut :**
 1. nim (TextField)
 2. nama (TextField)
@@ -13,7 +12,7 @@ Saya Salma Ghaida dengan NIM 2207186 mengerjakan Tugas Praktikum 2 dalam mata ku
 
 Kelas Mahasiswa memiliki konstruktor untuk membuat objek Mahasiswa baru dengan memberikan nilai untuk setiap atributnya. Selain itu, terdapat metode-metode setter (setNim, setNama, setJenisKelamin, setKelas) yang digunakan untuk mengatur nilai atribut, dan metode-metode getter (getNim, getNama, getJenisKelamin, getKelas) yang digunakan untuk mengambil nilai atribut.
 
-#### Kelas Menu
+### Kelas Menu
 1. **Struktur Kelas `Menu`**:
    - Kelas `Menu` merupakan kelas utama yang mengextends `JFrame`, yang digunakan untuk membuat jendela aplikasi.
    - Di dalamnya terdapat komponen-komponen antarmuka pengguna seperti `JTextField`, `JComboBox`, `JTable`, dan `JButton` yang digunakan untuk memasukkan data mahasiswa, menampilkan data dalam tabel, dan mengatur interaksi dengan pengguna.
@@ -47,7 +46,7 @@ Kelas Mahasiswa memiliki konstruktor untuk membuat objek Mahasiswa baru dengan m
 8. **Event Listeners**:
    - Terdapat beberapa event listeners yang menangani interaksi pengguna, seperti saat tombol "Add/Update", "Delete", atau "Cancel" ditekan, serta saat salah satu baris tabel diklik. Event listeners ini memanggil metode yang sesuai untuk melakukan operasi yang diinginkan.
 
-#### Kelas Database
+### Kelas Database
 Kelas `Database` merupakan kelas yang bertanggung jawab untuk mengelola koneksi dan eksekusi query ke database MySQL.
 
 1. **Koneksi ke Database**:
